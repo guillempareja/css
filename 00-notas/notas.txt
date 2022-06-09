@@ -1,0 +1,12 @@
+1) Importar 'normalize'
+2) Prepara imatges: webp, avif
+3) propietar 'all: unset' per evitar default
+4) BEM: bloc__element--modificador
+5) Enfocament mobile/desktop first (sempre tirar de min o de max només)
+	$telefono: 480px;
+	$tablet: 768px;
+	$desktop: 1024px;
+6) Selector: div[class$="test"] (acaba en test: .atest)
+	     div[class^="test"] (comença amb test: .testa)
+	     div[class*="test"] (inclou test: .aatestaa)
+7) Snippets cntr + shift + p : user snippets
